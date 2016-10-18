@@ -1,8 +1,5 @@
-
 var transform = require('es3ify').transform;
 
-module.exports = function (content, file, options) {
-      return transform(content);
+module.exports = function(content, file, options) {
+  return transform(content);
 }
-
-
